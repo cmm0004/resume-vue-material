@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <contact-info/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ContactInfo from "@/components/ContactInfo";
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ContactInfo
+  },
+  data () {
+    return {
+      thingy: 0
+    }
+  },
+  methods: {
+    increment: function () {
+      this.thingy = this.thingy + 1;
+      this.$emit("hello", 123);
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
