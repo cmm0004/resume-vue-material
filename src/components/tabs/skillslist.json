@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Vue.js",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "knockout.js",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "Ext.js",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "bootstrap 4",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "Material",
+    "tags": ["frontend"]
+  },
+  {
+    "name": "MVVM",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "MVC",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "es6",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "postman",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "scss",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "less",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "restful apis",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "HTML",
+    "tags": ["frontend", "current"]
+  },
+  {
+    "name": "json",
+    "tags": ["frontend", "current", "api"]
+  },
+  {
+    "name": "C#",
+    "tags": ["backend", "current"]
+  },
+  {
+    "name": "dotnetcore",
+    "tags": ["backend", "current"]
+  },
+  {
+    "name": "dotnetframework",
+    "tags": ["backend", "current"]
+  },
+  {
+    "name": "webapi2",
+    "tags": ["backend", "current", "api"]
+  },
+  {
+    "name": "VB.NET",
+    "tags": ["backend"]
+  },
+  {
+    "name": "powershell",
+    "tags": ["devops"]
+  },
+  {
+    "name": "Linq",
+    "tags": ["backend", "current"]
+  },
+  {
+    "name": "elasticsearch 6",
+    "tags": ["architecture", "backend", "current"]
+  },
+  {
+    "name": "flatbuffers",
+    "tags": ["backend", "architecture", "api"]
+  },
+  {
+    "name": "protobufs",
+    "tags": ["backend", "architecture", "api"]
+  },
+  {
+    "name": "redis",
+    "tags": ["backend", "architecture", "current"]
+  },
+  {
+    "name": "Moq",
+    "tags": ["backend", "current"]
+  },
+  {
+    "name": "async/await",
+    "tags": ["backend", "frontend", "current"]
+  },
+  {
+    "name": "MSSQL",
+    "tags": ["backend", "database", "relational", "current"]
+  },
+  {
+    "name": "hive/hql",
+    "tags": ["backend", "database", "relational"]
+  },
+  {
+    "name": "aws athena",
+    "tags": ["backend", "database", "relational", "cloud"]
+  },
+  {
+    "name": "aws aurora",
+    "tags": ["backend", "database", "relational", "cloud"]
+  },
+  {
+    "name": "aws dynamobd",
+    "tags": ["backend", "cloud", "database", "nosql", "current"]
+  },
+  {
+    "name": "postgres",
+    "tags": ["backend", "database", "relational"]
+  },
+  {
+    "name": "aws s3",
+    "tags": ["backend", "database", "nosql", "cloud", "current"]
+  },
+  {
+    "name": "Entity Framework",
+    "tags": ["backend", "database", "orm", "current"]
+  },
+  {
+    "name": "Winsor IOC",
+    "tags": ["backend", "ioc", "current"]
+  },
+  {
+    "name": "Infrastructure as Code",
+    "tags": ["architecture", "practices", "current"]
+  },
+  {
+    "name": "unit testing",
+    "tags": ["practices", "testing", "current"]
+  },
+  {
+    "name": "terraform",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "docker",
+    "tags": ["architecture","current"]
+  },
+  {
+    "name": "amazon web services",
+    "tags": ["architecture", "cloud", "current"]
+  },
+  {
+    "name": "publisher/subscription",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "aws ecs",
+    "tags": ["architecture", "cloud","current"]
+  },
+  {
+    "name": "aws sqs",
+    "tags": ["architecture", "cloud","current"]
+  },
+  {
+    "name": "aws cloudwatch",
+    "tags": ["architecture", "cloud", "current"]
+  },
+  {
+    "name": "aws lambda",
+    "tags": ["architecture", "backend", "cloud", "current"]
+  },
+  {
+    "name": "git",
+    "tags": ["practices","current"]
+  },
+  {
+    "name": "team foundation server",
+    "tags": ["practices"]
+  },
+  {
+    "name": "nuget",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "npm",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "teamcity",
+    "tags": ["architecture", "practices", "current"]
+  },
+  {
+    "name": "mentoring",
+    "tags": ["people","current"]
+  },
+  {
+    "name": "code reviews",
+    "tags": ["people", "practices","current"]
+  },
+  {
+    "name": "agile",
+    "tags": ["people", "practices", "current"]
+  },
+  {
+    "name": "12 factor app",
+    "tags": ["practices", "current"]
+  },
+  {
+    "name": "public speaking",
+    "tags": ["people","current"]
+  },
+  {
+    "name": "radical candor",
+    "tags": ["people", "practices", "current"]
+  },
+  {
+    "name": "documentation",
+    "tags": ["practices", "current"]
+  },
+  {
+    "name": "ruby",
+    "tags": ["backend"]
+  },
+  {
+    "name": "rails",
+    "tags": ["frontend"]
+  },
+  
+  {
+    "name": "java",
+    "tags": ["backend"]
+  },
+  
+  {
+    "name": "clojure",
+    "tags": ["backend"]
+  },
+  
+  {
+    "name": "Golang",
+    "tags": ["backend"]
+  },{
+    "name": "sinatra",
+    "tags": ["frontend"]
+  },
+  {
+    "name": "windows",
+    "tags": ["architecture","current"]
+  },
+  {
+    "name": "linux",
+    "tags": ["architecture"]
+  },
+  {
+    "name": "jenkins",
+    "tags": ["architecture"]
+  },
+  {
+    "name": "decorator pattern",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "factory pattern",
+    "tags": ["architecture", "current"]
+  },
+  {
+    "name": "ftp",
+    "tags": ["architecture"]
+  },
+  {
+    "name": "sso",
+    "tags": ["architecture"]
+  },
+  {
+    "name": "jquery",
+    "tags": ["frontend"]
+  },
+  {
+    "name": "XUnit",
+    "tags": ["backend", "practices","current"]
+  },
+  {
+    "name": "Resharper",
+    "tags": ["backend", "practices", "current"]
+  },
+  {
+    "name": "dottrace",
+    "tags": ["backend", "practices","current"]
+  }
+
+]
