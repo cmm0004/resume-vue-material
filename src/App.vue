@@ -1,59 +1,57 @@
-<template>
-  <div class="page-container">
-    <md-app md-mode="reveal" class="app">
-      <md-app-toolbar class="md-primary">
-        <div class="md-toolbar-row">
-          <div class="md-toolbar-section-start">
-            <a href="/">
-              <h3 class="md-title" style="flex: 1">Candice McCollough</h3>
-            </a>
-          </div>
 
-          <div class="md-toolbar-section-end">
-            <md-tabs class="md-primary">
-              <md-tab @click="currentView = 0" id="tab-home" md-label="Home"></md-tab>
-              <md-tab @click="currentView = 1" id="tab-expierence" md-label="Experience"></md-tab>
-              <md-tab @click="currentView = 2" id="tab-skills" md-label="Skills"></md-tab>
-            </md-tabs>
-          </div>
-        </div>
-      </md-app-toolbar>
-
-      <md-app-content>
-        <home-page v-if="currentView === 0"/>
-         <skill-finder v-if="currentView === 2"/>
-      </md-app-content>
-    </md-app>
+ <template>
+  <v-app id="inspire" dark>
+    <v-toolbar app fixed>
+      <v-toolbar-title>Candice McCollough</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-avatar>
+        <img
+          src="https://lh3.googleusercontent.com/-oqGixGxOGJQ/AAAAAAAAAAI/AAAAAAAAX1w/ZOivWY02fRQ/s60-p-rw-no-il/photo.jpg"
+          alt="Candito"
+        >
+      </v-avatar>
+    </v-toolbar>
+    <v-content>
+      <front-page/>
+    </v-content>
     <external-links/>
-  </div>
+  </v-app>
 </template>
 
 <script>
-import HomePage from "@/components/tabs/HomePage";
+import {
+  VApp,
+  VContent,
+  VLayout,
+  VContainer,
+  VToolbar,
+  VToolbarTitle,
+  VToolbarSideIcon,
+  VAvatar,
+  VSpacer
+} from "vuetify/lib";
 import ExternalLinks from "@/components/ExternalLinks";
-import SkillFinder from "@/components/tabs/SkillFinder";
-const views = {
-  home: 0,
-  experience: 1,
-  skills: 2
-};
+import FrontPage from "@/components/FrontPage";
 export default {
-  name: "Reveal",
+  name: "App",
   components: {
-    HomePage,
-    SkillFinder,
-    ExternalLinks
-
+    VApp,
+    VContent,
+    VLayout,
+    VContainer,
+    VToolbar,
+    VToolbarTitle,
+    ExternalLinks,
+    FrontPage,
+    VToolbarSideIcon,
+    VAvatar,
+    VSpacer
   },
   data: () => ({
-    menuVisible: false,
-    currentView: views.home
-  })
+    drawer: null
+  }),
+  props: {
+    source: String
+  }
 };
 </script>
-
-<style lang="scss" scoped>
-.app {
-  min-height: 100vh;
-}
-</style>

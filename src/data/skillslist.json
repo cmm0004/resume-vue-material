@@ -1,303 +1,380 @@
 [
   {
+    "id": 1,
     "name": "Vue.js",
-    "tags": ["frontend", "current"]
+    "tags": ["frontend", "current"],
+    "desc": "I use Vue.js on a daily basis at my current position as a software engineer at eVestment. We develop microsites in vue that can be mounted and composed together on a page, so that differnt teams can be responsible for different functionality, but that functionality be easily reused in different applications. We use vue-cli, webpack, babel, & eslint as our main development and build tools."
   },
   {
+    "id": 2,
     "name": "knockout.js",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 3,
     "name": "Ext.js",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 4,
     "name": "bootstrap 4",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 5,
     "name": "Material",
     "tags": ["frontend"]
   },
   {
+    "id": 6,
     "name": "MVVM",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 7,
     "name": "MVC",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 8,
     "name": "es6",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 9,
     "name": "postman",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 10,
     "name": "scss",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 11,
     "name": "less",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 12,
     "name": "restful apis",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 13,
     "name": "HTML",
     "tags": ["frontend", "current"]
   },
   {
+    "id": 14,
     "name": "json",
     "tags": ["frontend", "current", "api"]
   },
   {
+    "id": 15,
     "name": "C#",
     "tags": ["backend", "current"]
   },
   {
+    "id": 16,
     "name": "dotnetcore",
     "tags": ["backend", "current"]
   },
   {
+    "id": 17,
     "name": "dotnetframework",
     "tags": ["backend", "current"]
   },
   {
+    "id": 18,
     "name": "webapi2",
     "tags": ["backend", "current", "api"]
   },
   {
+    "id": 19,
     "name": "VB.NET",
     "tags": ["backend"]
   },
   {
+    "id": 20,
     "name": "powershell",
     "tags": ["devops"]
   },
   {
+    "id": 21,
     "name": "Linq",
     "tags": ["backend", "current"]
   },
   {
+    "id": 22,
     "name": "elasticsearch 6",
     "tags": ["architecture", "backend", "current"]
   },
   {
+    "id": 23,
     "name": "flatbuffers",
     "tags": ["backend", "architecture", "api"]
   },
   {
+    "id": 24,
     "name": "protobufs",
     "tags": ["backend", "architecture", "api"]
   },
   {
+    "id": 25,
     "name": "redis",
     "tags": ["backend", "architecture", "current"]
   },
   {
+    "id": 26,
     "name": "Moq",
     "tags": ["backend", "current"]
   },
   {
+    "id": 27,
     "name": "async/await",
     "tags": ["backend", "frontend", "current"]
   },
   {
+    "id": 28,
     "name": "MSSQL",
     "tags": ["backend", "database", "relational", "current"]
   },
   {
+    "id": 29,
     "name": "hive/hql",
     "tags": ["backend", "database", "relational"]
   },
   {
+    "id": 30,
     "name": "aws athena",
     "tags": ["backend", "database", "relational", "cloud"]
   },
   {
+    "id": 31,
     "name": "aws aurora",
     "tags": ["backend", "database", "relational", "cloud"]
   },
   {
+    "id": 32,
     "name": "aws dynamobd",
     "tags": ["backend", "cloud", "database", "nosql", "current"]
   },
   {
+    "id": 33,
     "name": "postgres",
     "tags": ["backend", "database", "relational"]
   },
   {
+    "id": 34,
     "name": "aws s3",
     "tags": ["backend", "database", "nosql", "cloud", "current"]
   },
   {
+    "id": 35,
     "name": "Entity Framework",
     "tags": ["backend", "database", "orm", "current"]
   },
   {
+    "id": 36,
     "name": "Winsor IOC",
     "tags": ["backend", "ioc", "current"]
   },
   {
+    "id": 37,
     "name": "Infrastructure as Code",
     "tags": ["architecture", "practices", "current"]
   },
   {
+    "id": 38,
     "name": "unit testing",
     "tags": ["practices", "testing", "current"]
   },
   {
+    "id": 39,
     "name": "terraform",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 40,
     "name": "docker",
     "tags": ["architecture","current"]
   },
   {
+    "id": 41,
     "name": "amazon web services",
     "tags": ["architecture", "cloud", "current"]
   },
   {
+    "id": 42,
     "name": "publisher/subscription",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 43,
     "name": "aws ecs",
     "tags": ["architecture", "cloud","current"]
   },
   {
+    "id": 44,
     "name": "aws sqs",
     "tags": ["architecture", "cloud","current"]
   },
   {
+    "id": 45,
     "name": "aws cloudwatch",
     "tags": ["architecture", "cloud", "current"]
   },
   {
+    "id": 46,
     "name": "aws lambda",
     "tags": ["architecture", "backend", "cloud", "current"]
   },
   {
+    "id": 47,
     "name": "git",
     "tags": ["practices","current"]
   },
   {
+    "id": 48,
     "name": "team foundation server",
     "tags": ["practices"]
   },
   {
+    "id": 49,
     "name": "nuget",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 50,
     "name": "npm",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 51,
     "name": "teamcity",
     "tags": ["architecture", "practices", "current"]
   },
   {
+    "id": 52,
     "name": "mentoring",
     "tags": ["people","current"]
   },
   {
+    "id": 53,
     "name": "code reviews",
     "tags": ["people", "practices","current"]
   },
   {
+    "id": 54,
     "name": "agile",
     "tags": ["people", "practices", "current"]
   },
   {
+    "id": 55,
     "name": "12 factor app",
     "tags": ["practices", "current"]
   },
   {
+    "id": 56,
     "name": "public speaking",
     "tags": ["people","current"]
   },
   {
+    "id": 57,
     "name": "radical candor",
     "tags": ["people", "practices", "current"]
   },
+  
   {
+    "id": 58,
     "name": "documentation",
     "tags": ["practices", "current"]
   },
   {
+    "id": 59,
     "name": "ruby",
     "tags": ["backend"]
   },
   {
+    "id": 60,
     "name": "rails",
     "tags": ["frontend"]
   },
   
   {
+    "id": 61,
     "name": "java",
     "tags": ["backend"]
   },
   
   {
+    "id": 62,
     "name": "clojure",
     "tags": ["backend"]
   },
   
   {
+    "id": 63,
     "name": "Golang",
     "tags": ["backend"]
   },{
+    "id": 64,
     "name": "sinatra",
     "tags": ["frontend"]
   },
   {
+    "id": 65,
     "name": "windows",
     "tags": ["architecture","current"]
   },
   {
+    "id": 66,
     "name": "linux",
     "tags": ["architecture"]
   },
   {
+    "id": 67,
     "name": "jenkins",
     "tags": ["architecture"]
   },
   {
+    "id": 68,
     "name": "decorator pattern",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 69,
     "name": "factory pattern",
     "tags": ["architecture", "current"]
   },
   {
+    "id": 70,
     "name": "ftp",
     "tags": ["architecture"]
   },
   {
+    "id": 71,
     "name": "sso",
     "tags": ["architecture"]
   },
   {
+    "id": 72,
     "name": "jquery",
     "tags": ["frontend"]
   },
   {
+    "id": 73,
     "name": "XUnit",
     "tags": ["backend", "practices","current"]
   },
   {
+    "id": 74,
     "name": "Resharper",
     "tags": ["backend", "practices", "current"]
   },
   {
+    "id": 75,
     "name": "dottrace",
     "tags": ["backend", "practices","current"]
   }

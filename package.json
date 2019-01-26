@@ -9,19 +9,25 @@
   },
   "dependencies": {
     "vue": "^2.5.21",
-    "vue-material": "^1.0.0-beta-10.2"
+    "vuetify": "^1.4.2"
   },
   "devDependencies": {
+    "@mdi/font": "^3.3.92",
     "@vue/cli-plugin-babel": "^3.1.1",
     "@vue/cli-plugin-eslint": "^3.1.1",
     "@vue/cli-service": "^3.1.1",
     "babel-eslint": "^10.0.1",
+    "css-loader": "^2.1.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "svg-inline-loader": "^0.8.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "vuetify-loader": "^1.1.1"
   },
   "eslintConfig": {
     "root": true,

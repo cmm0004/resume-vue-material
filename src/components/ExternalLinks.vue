@@ -1,30 +1,34 @@
 <template>
-  <md-speed-dial md-event="click" class="md-bottom-right md-fixed">
-    <md-speed-dial-target>
-      <md-icon class="md-morph-initial">send</md-icon>
-      <md-icon class="md-morph-final">close</md-icon>
-    </md-speed-dial-target>
-
-    <md-speed-dial-content>
-      <md-button class="md-icon-button">
-        <md-icon>person_add</md-icon>
-        <md-tooltip md-direction="left">LinkedIn</md-tooltip>
-      </md-button>
-
-      <md-button class="md-icon-button">
-        <md-icon>code</md-icon>
-        <md-tooltip md-direction="left">Github</md-tooltip>
-      </md-button>
-      <md-button class="md-icon-button">
-        <md-icon>mail</md-icon>
-        <md-tooltip md-direction="left">Email</md-tooltip>
-      </md-button>
-    </md-speed-dial-content>
-  </md-speed-dial>
+  <v-speed-dial direction="top"  v-model="fab" fixed bottom right>
+    <v-btn slot="activator"  v-model="fab" transition dark fab color="pink">
+      <v-icon>send</v-icon>
+      <v-icon>close</v-icon>
+    </v-btn>
+    <v-btn fab small dark target="_blank" href="https://github.com/cmm0004" >
+      <v-icon>mdi-github-face</v-icon>
+    </v-btn>
+    <v-btn fab small dark target="_blank" href="https://www.linkedin.com/in/candice-mccollough">
+      <v-icon>mdi-linkedin</v-icon>
+    </v-btn>
+    <v-btn fab small dark href="mailto:cmm0004@gmail.com">
+      <v-icon>mdi-gmail</v-icon>
+    </v-btn>
+  </v-speed-dial>
 </template>
 
 <script>
+import { VIcon, VBtn, VSpeedDial } from "vuetify/lib";
 export default {
-  name: "ExternalLinks"
+  name: "ExternalLinks",
+  components: {
+    VIcon,
+    VBtn,
+    VSpeedDial
+  },
+  data() {
+    return {
+      fab: false
+    }
+  }
 };
 </script>
